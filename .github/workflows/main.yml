@@ -19,12 +19,11 @@ jobs:
         - name: Android64
           os: ubuntu-latest
           target: Android64
-        # will uncomment mac only when it releases
-        #- name: macOS
-        #  os: macos-latest
-        #- name: iOS
-        #  os: macos-latest
-        #  target: iOS
+        - name: macOS
+          os: macos-latest
+        - name: iOS
+          os: macos-latest
+          target: iOS
       
         
         
